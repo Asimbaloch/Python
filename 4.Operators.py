@@ -15,3 +15,11 @@ mid_marks =22
 final_marks = 33
 
 print (final_marks > mid_marks)
+
+
+#membership operators
+fruits = ["Banana","Apple","Peach"]
+
+print ("Banana is present in fruits :", "Banana" in fruits)
+print ("Mango is not present in fruits :", "Mango" not in fruits)
+
