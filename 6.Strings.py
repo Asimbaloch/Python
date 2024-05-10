@@ -29,3 +29,11 @@ print(university_name[1:4])
 print(university_name[7:])
 print(university_name[-5:-1]) 
 
+#Q- WAP to input user's first name and print its length.
+
+user_Name=input("What is your good name :")
+print(len(user_Name))
+
+#Q- WAP to find the occurance of '$' in String.
+ticker= " This is the $ value today"
+print(ticker.count("$"))
