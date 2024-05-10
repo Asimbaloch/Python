@@ -20,3 +20,15 @@ if sell_price >cost_price:
 else:
     loss = cost_price - sell_price
     print ("the seller has the loss of ", loss)
+
+#Grade
+student_marks = int (input("Please write your numbers :"))
+marks_percentage = student_marks * 100 / 100
+if marks_percentage >= 80:
+    print("Very good")
+
+elif marks_percentage >=61:
+    print("Good")
+
+elif marks_percentage >=41:
+    print("Average")
