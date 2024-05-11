@@ -32,3 +32,15 @@ elif marks_percentage >=61:
 
 elif marks_percentage >=41:
     print("Average")
+
+#Traffic Light Program
+light_color = input ("What is the color of the light?")
+
+if (light_color =="green"):
+    print ("You can go")
+
+elif (light_color=="red"):
+    print("You can not go.")
+
+else:
+    print("Light is broken.")
