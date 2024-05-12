@@ -7,3 +7,22 @@ students = {
 
 print (students)
 print(students["teachers"])
+print (type(students))
+
+#Nested Dictionaries
+faculty = {
+    "name" : "Computer Science",
+    "computer_sciece" :{
+        "name":"Asim Khan",
+        "batch": "2025",
+    }
+}
+
+print(faculty)
+print(faculty["computer_sciece"])
+print(faculty["computer_sciece"]["batch"])
+
+#Dictionary Methods
+
+print(faculty.keys())
+print(len(faculty))
