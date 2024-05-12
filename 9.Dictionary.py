@@ -36,3 +36,19 @@ print(faculty.values())
 
 
 print(len(faculty))
+
+
+#Question : Store following word meanings in the python dictionary :
+
+word_meaning =  {
+    "table" : ["a piece of furtniture","list of facts &figures"],
+    "cat":"a small animal"
+}
+
+print(word_meaning)
+
+
+marks ={}
+
+x=int (input("enter physics: "))
+marks.update ()
