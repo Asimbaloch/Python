@@ -24,5 +24,15 @@ print(faculty["computer_sciece"]["batch"])
 
 #Dictionary Methods
 
+
+#Keys Method:It will give all of the key values
 print(faculty.keys())
+
+#Values: It will return the values
+print(faculty.values())
+
+
+
+
+
 print(len(faculty))
