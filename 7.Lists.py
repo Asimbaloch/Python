@@ -44,3 +44,26 @@ cs_class =["Asim",3.29,"Python"]
 cs_class.remove(3.29)
 cs_class.pop(0)
 print(cs_class)
+
+
+#Question : WAP to ask the user to enter names of their 3 favorite movies and store them in a list.
+fav_movie1 = input ("Enter your first favorite movie :")
+fav_movie2 = input ("Enter your first favorite movie :")
+
+fav_movie3 = input ("Enter your first favorite movie :")
+
+all_movies = [fav_movie1,fav_movie2,fav_movie3]
+ 
+print (all_movies)
+
+#Palindrome
+check = [1,5,4]
+
+check_filter = check.copy()
+check_filter.reverse()
+
+if (check_filter == check):
+    print( "It is palindrome")
+
+else:
+    print(" It is not palindrome")
