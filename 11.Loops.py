@@ -25,4 +25,9 @@ while num1>=1:
     print(num1)
     num1 -=1
 
-
+#WAP to write the multiplication table.
+n=int(input("Please enter the number."))
+t = 1
+while t<=10:
+    print(n*t)
+    t+=1
