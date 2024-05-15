@@ -49,3 +49,10 @@ while i<len(roll_numbers):
     if (nums[i]==x):
         print("Found at", i)
     i+=1
+
+#for while
+
+society = ["Asim","Ahsan","Khan"]
+for members in society:
+    print(members)
+
