@@ -56,3 +56,22 @@ society = ["Asim","Ahsan","Khan"]
 for members in society:
     print(members)
 
+
+
+string = "checking"
+k="k"
+
+for char in string:
+    if (char==k):
+        print("Found")
+        break
+    print(char)
+    
+
+else:
+    print ("We are done.")
+
+
+#Search for a number in the list 
+
+
