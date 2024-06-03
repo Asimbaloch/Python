@@ -18,5 +18,3 @@ print (x)
 print (type(x))
 
 ab = "ali"
-
-
